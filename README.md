@@ -1,6 +1,6 @@
 # Deploy and Host Firefox (Cloud Browser) on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/firefox?utm_medium=integration&utm_source=button&utm_campaign=firefox)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/firefox-browser?utm_medium=integration&utm_source=button&utm_campaign=firefox-browser)
 
 This template runs a full desktop [Firefox](https://www.mozilla.org/firefox/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-firefox/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
