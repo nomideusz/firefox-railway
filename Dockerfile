@@ -8,4 +8,4 @@ ENV MAX_RES=3840x2160
 # ponytail: one custom-init script adds an unauthenticated /healthcheck
 # location for Railway's healthcheck prober; everything else is stock.
 COPY root/ /
-RUN chmod +x /custom-cont-init.d/20-healthcheck
+RUN chmod +x /custom-cont-init.d/20-healthcheck /custom-services.d/drop-file-cache /usr/local/bin/drop-file-cache
