@@ -1,6 +1,6 @@
 # Deploy and Host Firefox (Cloud Browser) on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/firefox-browser?utm_medium=integration&utm_source=button&utm_campaign=firefox-browser)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/firefox-browser?referralCode=sLjDXb&utm_medium=integration&utm_source=button&utm_campaign=firefox-browser)
 
 This template runs a full desktop [Firefox](https://www.mozilla.org/firefox/) browser in the cloud, streamed to any device through the [linuxserver.io](https://docs.linuxserver.io/images/docker-firefox/) Selkies web interface. Open your Railway domain, log in, and you're inside a real browser running on the server — bookmarks, extensions, downloads, and sessions persist between visits.
 
@@ -34,7 +34,7 @@ Notes and limits:
 - Keep the login strong: an open cloud browser is a proxy for whoever finds it. The password gate is the whole security model — don't remove it.
 - Rendering is CPU-based (no GPU on Railway). Fine for browsing and light video; not for WebGL-heavy work.
 - Firefox is memory-hungry: give the service 1–2 GB. Heavy tab hoarding needs more.
-- Looking for Chromium instead? The same author publishes a [Chromium template](https://railway.com/deploy/chromium).
+- Looking for Chromium instead? The same author publishes a [Chromium template](https://railway.com/deploy/chromium?referralCode=sLjDXb).
 - Traffic egresses from Railway's IP range — sites that block datacenter IPs (some streaming services) may object.
 - Abuse note: this is a browser, not an anonymizer. Use it within Railway's terms of service and the laws that apply to you.
 
