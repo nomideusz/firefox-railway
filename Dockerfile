@@ -1,4 +1,4 @@
-FROM linuxserver/firefox:1157.0build1-1xtradeb1.2404.1-ls128
+FROM linuxserver/firefox:1158.0build2-1xtradeb1.2404.1-ls129
 
 # Upstream starts Xvfb with a 15360x8640 screen, which pins ~600 MB for the
 # framebuffer alone and OOM-kills the desktop on Railway's 512 MB Trial plan.

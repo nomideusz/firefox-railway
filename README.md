@@ -33,7 +33,7 @@ Notes and limits:
 
 - Keep the login strong: an open cloud browser is a proxy for whoever finds it. The password gate is the whole security model — don't remove it.
 - Rendering is CPU-based (no GPU on Railway). Fine for browsing and light video; not for WebGL-heavy work.
-- Firefox is memory-hungry: give the service 1–2 GB. Heavy tab hoarding needs more.
+- Firefox needs at least 1 GB: on a 512 MB service (Railway's Trial plan) it is OOM-killed while starting and you get an empty desktop. 1–2 GB for normal browsing; heavy tab hoarding needs more.
 - Looking for Chromium instead? The same author publishes a [Chromium template](https://railway.com/deploy/chromium?referralCode=sLjDXb).
 - Traffic egresses from Railway's IP range — sites that block datacenter IPs (some streaming services) may object.
 - Abuse note: this is a browser, not an anonymizer. Use it within Railway's terms of service and the laws that apply to you.
