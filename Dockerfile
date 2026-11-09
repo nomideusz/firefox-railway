@@ -13,4 +13,7 @@ ENV RESTART_APP=true
 # ponytail: one custom-init script adds an unauthenticated /healthcheck
 # location for Railway's healthcheck prober; everything else is stock.
 COPY root/ /
-RUN chmod +x /custom-cont-init.d/20-healthcheck /custom-services.d/drop-file-cache /usr/local/bin/drop-file-cache
+RUN chmod +x /railway-gate.sh /custom-cont-init.d/20-healthcheck /custom-services.d/drop-file-cache /usr/local/bin/drop-file-cache
+
+# Free plan (0.5 GB): serve a "needs 1 GB" page instead of starting the desktop (see railway-gate.sh).
+ENTRYPOINT ["/railway-gate.sh"]
