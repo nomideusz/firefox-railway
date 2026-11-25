@@ -1,0 +1,6 @@
+#!/bin/sh
+# Firefox leaves .parentlock (and a lock symlink naming this container) in the profile
+# when it's killed, for example for memory. After a redeploy it then refuses to start
+# ("Firefox is already running, but is not responding") while Railway shows SUCCESS.
+# Nothing runs Firefox before this, so any lock found at boot is stale.
+rm -f /config/.config/mozilla/firefox/*/.parentlock /config/.config/mozilla/firefox/*/lock
