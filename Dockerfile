@@ -1,4 +1,4 @@
-FROM linuxserver/firefox:1160.0build1-1xtradeb1.2404.1-ls137
+FROM linuxserver/firefox:1161.0build1-1xtradeb1.2404.1-ls140
 
 # MAX_RES capped the Xvfb screen on older X11 bases; this Wayland base ignores it.
 # 15-small-plan-resolution locks the desktop at 1920x1080 instead: on every plan, since
